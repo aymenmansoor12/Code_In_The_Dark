@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Layout</title>
+    <style>
+        .dark-word-section {
+            background-color: #111; /* Darker background color */
+            text-align: center;
+            padding: 30px 0; /* Reduced padding to remove excessive gap */
+        }
+
+        .dark-word {
+            font-size: 10em; /* Extra Large font size */
+            font-weight: bold;
+            color: #6a1b9a; /* Darker purple color */
+            text-transform: uppercase;
+            letter-spacing: 80px; /* Increased spacing between letters */
+            text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); /* 2D shadow effect */
+        }
+
+        footer {
+            background-color: #111; /* Same dark background as the "DARK" section */
+            color: #fff;
+            padding: 10px 40px; /* Reduced padding */
+            margin-bottom: 0; /* Remove any extra margin */
+            border-top: 3px solid #fff; /* White line above the footer */
+        }
+
+        footer img {
+            width: 120px;
+            height: auto;
+        }
+
+        footer .social-icons a {
+            margin-right: 10px;
+        }
+
+        footer .social-icons img {
+            width: 24px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <!-- Logo Section -->
+        <div style="text-align: left; margin-bottom: 20px;">
+            <img src="./code in the dark logo.png" alt="Logo">
+        </div>
+
+        <!-- Main Content Sections -->
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 20px;">
+            <!-- Pages Section -->
+            <div style="flex: 1; min-width: 150px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
+                <strong style="font-size: 1.2em;">Pages</strong>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Home</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Events</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">About Us</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Register</a></li>
+                </ul>   
+            </div>
+
+            <!-- Policies Section -->
+            <div style="flex: 1; min-width: 150px; margin-left: 50px; margin-right: 10px; margin-bottom: 20px;">
+                <strong style="font-size: 1.2em;">Policies</strong>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Code In The Dark Section -->
+            <div style="flex: 1; min-width: 150px; margin-left: 10px; margin-bottom: 20px;">
+                <strong style="font-size: 1.2em;">Code In The Dark</strong>
+                <p style="margin: 10px 0;">123 123 123</p>
+                <p style="margin: 10px 0;">
+                    <a href="mailto:hello@codeinthedark.com" style="color: #fff; text-decoration: none;">
+                        hello@codeinthedark.com
+                    </a>
+                </p>
+
+                <!-- Social Media Icons -->
+                <div class="social-icons" style="margin-top: 10px;">
+                    <a href="#" style="margin-right: 10px;">
+                        <img src="./linkdin.png" alt="LinkedIn">
+                    </a>
+                    <a href="#" style="margin-right: 10px;">
+                        <img src="./insta.png" alt="Instagram">
+                    </a>
+                    <a href="#" style="margin-right: 10px;">
+                        <img src="./x.png" alt="X">
+                    </a>
+                    <a href="#">
+                        <img src="./youtube.png" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dark Word Section -->
+    <div class="dark-word-section">
+        <div class="dark-word">DARK</div>
+    </div>
+</body>
+</html>
